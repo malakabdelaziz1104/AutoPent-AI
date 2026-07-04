@@ -110,3 +110,7 @@ This was a graduation project developed by a team of 8 students at Canadian Inte
 ## Disclaimer
 
 This tool is intended for **authorized security testing only**. Always ensure you have explicit permission before scanning any target.
+
+## Demo Video
+
+[▶️ Watch/Download the demo video](video%20demo.mp4)
