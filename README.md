@@ -6,38 +6,38 @@ AutoPent AI is an automated penetration testing system that bridges the gap betw
 
 ---
 
-## 🚀 Live Preview
+## Live Preview
 
 ![Homepage](screenshots/homepage.png)
 
 ---
 
-## 📌 The Problem
+##  The Problem
 
 Manual penetration testing is time-consuming, resource-intensive, and requires specialized expertise. Existing automated tools are often fragmented and generate passive technical reports that highlight risks without offering clear, actionable solutions — leaving systems vulnerable for longer.
 
-## 💡 The Solution
+## The Solution
 
 AutoPent AI combines multiple open-source security tools into one platform, then uses an AI Remediation Module to analyze findings and generate syntax-correct code fixes, so developers can secure their applications quickly and efficiently.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- 🔍 **Automated Web Vulnerability Scanning** using OWASP ZAP / Burp Suite
-- 🌐 **Network Port Analysis** using Nmap
-- 🖥️ **Infrastructure Vulnerability Management** using OpenVAS
-- 🤖 **AI-Driven Remediation Module** — generates real code fixes, not just warnings
-- 🔐 **Secure Authentication** (Login / Signup / Email Verification)
-- 📊 **Detailed PDF Reports** with severity breakdown (Critical, High, Medium, Low, Info)
-- 📁 **Scan History Log** to track previous scans
-- ⚙️ Built following **Agile SDLC** methodology
+- **Automated Web Vulnerability Scanning** using OWASP ZAP / Burp Suite
+- **Network Port Analysis** using Nmap
+- **Infrastructure Vulnerability Management** using OpenVAS
+- **AI-Driven Remediation Module** — generates real code fixes, not just warnings
+- **Secure Authentication** (Login / Signup / Email Verification)
+- **Detailed PDF Reports** with severity breakdown (Critical, High, Medium, Low, Info)
+- **Scan History Log** to track previous scans
+- Built following **Agile SDLC** methodology
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
-![System Architecture](screenshots/architecture.png)
+[System Architecture](screenshots/architecture.png)
 
 The system follows a layered architecture:
 - **Presentation Layer:** React.js Frontend Dashboard
@@ -47,31 +47,31 @@ The system follows a layered architecture:
 
 ---
 
-## 🖥️ Dashboard
+##  Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+[Dashboard](screenshots/dashboard.png)
 
 Users can launch scans by entering a target URL/IP, with configurable options like comprehensive scans (OpenVAS), web vulnerability scans (Burp Suite), and advanced Nmap options.
 
 ---
 
-## 📄 Sample Report
+##  Sample Report
 
-![Vulnerability Report](screenshots/report-summary.png)
+[Vulnerability Report](screenshots/report-summary.png)
 
 Each scan generates a detailed report showing vulnerabilities categorized by severity.
 
 ### Example Findings:
 
-![SQL Injection Finding](screenshots/vulnerability-detail-1.png)
+[SQL Injection Finding](screenshots/vulnerability-detail-1.png)
 
-![Open Port Finding](screenshots/vulnerability-detail-2.png)
+[Open Port Finding](screenshots/vulnerability-detail-2.png)
 
 Every vulnerability comes with a **clear remediation/solution section**, making it actionable instead of just informational.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -84,7 +84,7 @@ Every vulnerability comes with a **clear remediation/solution section**, making 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 AutoPent-AI/
 ├── source_code/          # Full application source code
 ├── screenshots/          # UI & report screenshots
@@ -93,12 +93,12 @@ AutoPent-AI/
 ├── SWOT Analysis.pdf
 
 ---
-## 👥 Team
+## Team
 This was a graduation project developed by a team of 8 students at Canadian International College (CIC), under the supervision of Dr. Ahmed Gaber Abuabdallah.
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Real-time continuous monitoring
 - Automated remediation (auto-patching)
@@ -107,6 +107,6 @@ This was a graduation project developed by a team of 8 students at Canadian Inte
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is intended for **authorized security testing only**. Always ensure you have explicit permission before scanning any target.
